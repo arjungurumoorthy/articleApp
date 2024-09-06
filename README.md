@@ -1,3 +1,43 @@
+
+# Article App
+
+This project is a React-based web application that allows users to filter, sort, and paginate articles by category, author, and other criteria. It utilizes React's context API for state management and provides a scalable way to manage articles.
+
+## Features
+
+- **Filtering**: Users can filter articles based on categories and authors.
+- **Sorting**: Articles can be sorted by date or title.
+- **Pagination**: Pagination is implemented to allow users to navigate through articles, with a configurable number of posts per page.
+- **Context API**: State management is centralized using React's Context API for easier access across components.
+
+
+## File Structure
+
+```
+/src
+  ├── /components       # Reusable UI components
+  ├── /context          # React Context for articles
+  ├── App.tsx           # Main application component
+  ├── index.tsx         # App entry point
+  └── styles.css        # CSS styles for the app
+```
+
+## Usage
+
+1. The app will load with a set of predefined articles.
+2. You can filter articles by selecting categories or authors from the sidebar.
+3. Use the radio buttons to sort articles by date or title.
+4. The pagination controls allow you to navigate between pages of articles.
+
+## Technologies Used
+
+- React
+- TypeScript
+- Context API
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,11 +53,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
